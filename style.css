@@ -1,0 +1,43 @@
+body {
+  width: 80vw;
+  margin: auto;
+  font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  height: 15vh;
+  text-align: center;
+  background-color: #fffabe;
+}
+.header li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.main_content {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+#skills {
+  margin-top: 100px;
+}
+#experience {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#experience li {
+  list-style-type: none;
+}
+
+.footer {
+  height: 15vh;
+  background-color: #fffabe;
+  text-align: center;
+}
+#contact_me li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 3% 40px 0 40px;
+}
