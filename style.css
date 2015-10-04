@@ -59,21 +59,21 @@ footer ul {
   margin-top: 0;
 }
 input {
-  width: 9em;
-  margin: 10px 5px;
-  padding-left: 5px;
+  width: 20em;
+  margin-top: 10px;
 }
 textarea {
   width: 20em;
   height: 5em;
+  margin-top: 10px;
 }
 .contact_links li {
   list-style-type: none;
   display: inline-block;
-  margin: 4% 3% 0 3%;
+  margin: 3% 3% 0 3%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 395px) {
   body {
     width: 90%;
     font-size: 75%;
