@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel="stylesheet" type="text/css">
-  <title>Portfolio v1 - Lance Seo</title>
+  <title>Portfolio v2 - Lance Seo</title>
 </head>
 <body>
 
-  <div class="header">
+  <header>
     <h1>Lance Seo</h1>
     <ul>
       <li><a href="#about_me">About Me</a></li>
@@ -15,14 +16,14 @@
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact_me">Contact Me</a></li>
     </ul>
-  </div>
+  </header>
 
   <div class="main_content">
     <div id="about_me">
       <h3>About Me</h3>
       <p>
         I had a few different jobs but mostly worked as an IT technician for past several years.
-        My responsibilities involved managing all aspects of various IT hardware and software and supporting users.
+        My responsibilities involved managing all aspects of various IT hardware and software, and supporting users.
       </p>
       <p>
         I recently had an opportunity to participate in building an e-commerce website and realized that I really enjoy working to develop web solutions.
@@ -54,16 +55,22 @@
     </div>
   </div>
 
-  <div class="footer">
-    <div id="contact_me">
+  <footer id="contact_me">
+    <form action="http://learningfuze.com/echo.php" method="POST">
+      Contact Me<br>
+      <input type="text" name="c_name" placeholder="Name">
+      <input type="text" name="email" placeholder="Email"><br>
+      <textarea name="message" placeholder="Message"></textarea><br>
+      <input type="submit" value="submit">
+    </form>
+    <div class="contact_links">
       <ul>
         <li><a href="https://github.com/lance9980">GitHub</a></li>
-        <li><a href="https://www.linkedin.com">Linkedin</a></li>
+        <li><a href="https://www.linkedin.com/in/lanceseo">Linkedin</a></li>
         <li><a href="mailto:lance9980@gmail.com">lance9980@gmail.com</a></li>
-        <li>Contact Form</li>
       </ul>
     </div>
-  </div>
+  </footer>
 
 </body>
 </html>
